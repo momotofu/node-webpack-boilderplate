@@ -1,0 +1,33 @@
+{
+  "name": "node-webpack-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently --kill-others \"webpack-dev-server --mode=development --progress --colors --port 2992\" \"NODE_ENV=development nodemon ./src/backend/app.js\"",
+    "prod": "NODE_ENV=production node ./src/backend/app.js",
+    "postinstall": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Christopher Reece",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.18.4",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-promise-router": "^3.0.3",
+    "pug": "^2.0.3"
+  }
+}
