@@ -3,7 +3,7 @@ Simple starter template for Node.js and React.js projects. The project can
 easily be reconfigured to use frameworks such as Vue.js and Angular.js.
 
 ## Usage
-1. download repo `git clone https://github.com/momotofu/my-idea-pool.git`
+1. download repo `git clone https://github.com/momotofu/node-webpack-boilerplate.git`
 2. Open your terminal and change into the root of the directory
 3. Install JavaScript dependencies by running `$ npm i`
 
