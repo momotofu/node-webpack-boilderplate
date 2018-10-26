@@ -1,6 +1,9 @@
 doctype html
 html
   head
-    title Node Webpack Boilerplate
-  body#root
-    script(src=mainBundlePath)
+    meta(charset="utf-8")
+    meta(name="viewPort" content="width=device-width, initial-scale=1")
+    title My app
+  body
+    div#root
+    script(src=`${mainBundlePath + bundleName}`)
