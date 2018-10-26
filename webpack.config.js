@@ -2,6 +2,7 @@ const prodConfig = require('./webpack-prod.config.js')
 const devConfig = require('./webpack-dev.config.js')
 const path = require('path');
 
+
 /**
  * combines and returns the properties from a base webpack
  * config object with the properties of a prod or dev webpack

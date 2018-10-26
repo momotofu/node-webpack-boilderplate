@@ -1,6 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 
+
 /*
  * Takes a folderPath and the depth of the
  * file with an unknown or variable name.

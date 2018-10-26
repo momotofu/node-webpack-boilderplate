@@ -5,6 +5,9 @@ if [ -f exports.sh ]; then
   rm exports.sh
 fi
 
+# Create a new blank exports file
+touch exports.sh
+
 # List of required API services
 APIServices=(
 )
